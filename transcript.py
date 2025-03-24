@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 import requests
 #this fetches the transcripts from the youtube video 
 # Set up YouTube API
-API_KEY = 'AIzaSyAlRguA-_DjuVuzGFzstTThgLbyDpAcGy0'
+API_KEY = 'YOUR GOOGLE API KEY'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def get_video_transcript(video_id):
